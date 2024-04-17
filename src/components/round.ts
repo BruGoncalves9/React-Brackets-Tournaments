@@ -1,27 +1,24 @@
 import styled from 'styled-components';
-import { ISeedProps } from '../types/Seed';
+import { IMobileProps } from '../types/Seed';
 
-export const Bracket = styled.div<ISeedProps>(
-  (props) => `
+export const Bracket = styled.div<IMobileProps>` 
   display: flex;
   flex-direction: row;
-  @media (max-width: ${props.mobileBreakpoint}px) {
+  @media (max-width: ${props => props.mobileBreakpoint}px) {
     flex-direction: column;
   }
   `
-);
+;
 
-export const Round = styled.div<ISeedProps>(
-  (props) => `
+export const Round = styled.div<IMobileProps>`
   flex: 0;
-  // min-width:300px;
   display:flex;
   flex-direction:column;
-  @media (max-width: ${props.mobileBreakpoint}px) {
+  @media (max-width: ${props => props.mobileBreakpoint}px) {
     min-width:0;
   }
   `
-);
+;
 
 export const RoundTitle = styled.div`
   color: #8f8f8f;

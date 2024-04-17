@@ -1,4 +1,3 @@
-import { SwipeableViewsProps } from 'react-swipeable-views';
 import { IRenderSeedProps } from '../types/Seed';
 import { IRoundProps } from './Rounds';
 
@@ -13,8 +12,6 @@ export interface ISingleEliminationProps {
   mobileBreakpoint?: number;
   // The whole bracket className
   bracketClassName?: string;
-  /** {@link https://github.com/oliviertassinari/react-swipeable-views} to read about it's props  */
-  swipeableProps?: SwipeableViewsProps;
   /**
    * @param {string} title string or component passed with each round
    * @param {number} round the current round index
