@@ -14,7 +14,9 @@ MIT © [mohammadou1](https://github.com/mohammadou1)
 
 1. Clone the github repository
 2. Create a fork of the original repository. This creates your own personal repository.
-3. Modify the desired files. Up all the versions on the package.json. Npm install to install the libraries.
-4. Git add . and Git commit
-5. npm run build
-6. git push origin master -u
+3. Modify the desired files.
+4. npm outdate gives all the versions on the package.json that can be updated.
+5. Npm install to install the libraries.
+6. Git add . and Git commit
+7. npm run build
+8. git push origin master -u
